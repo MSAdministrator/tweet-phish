@@ -1,4 +1,4 @@
-# tweet_phish
+# tweet-phish
 
 tweet-phish is a Python package and CLI tool to tweet about identified phishing websites by providing a URL
 
