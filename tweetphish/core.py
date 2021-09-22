@@ -7,9 +7,7 @@ from .utils.logger import LoggingBase
 class Core(metaclass=LoggingBase):
 
     yaml_config = './data/speedtweet.yml'
-
-    def __init__(self):
-        self.__get_config()
+    config = None
 
     def __get_abs_path(self, value):
         """Formats and returns the absolute path for a path value
